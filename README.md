@@ -1,9 +1,7 @@
 # Games
 This is my first ever project after deciding to code.
 
-Sure! Here’s a beginner-friendly documentation for your Tic-Tac-Toe game on GitHub.
 
----
 
 # Tic-Tac-Toe Game
 
