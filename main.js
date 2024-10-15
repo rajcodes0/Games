@@ -28,7 +28,7 @@ const resetGame = () => {
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
-    if (box.innerText !== "") return; // Prevent overwriting
+    if (box.innerText !== "") return; 
 
     if (turnO) {
       box.innerText = "O";
@@ -65,7 +65,7 @@ const enableBoxes = () => {
   boxes.forEach(box => {
     box.disabled = false;
     box.innerText = "";
-    box.classList.remove('o', 'x'); // Remove previous class
+    box.classList.remove('o', 'x'); 
   });
 };
 
