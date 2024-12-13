@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+.profilecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    max-width: 370px;
+    width: auto;
+    background-color: rgb(128, 216, 230);
+    box-shadow:  0 5px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 24px;
+   max-height:550px;
+   height: 500px;
+
+}
+
+.image{
+    margin-bottom: 10px;
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px rgb(236, 21, 21);
+    background-color: rgb(215, 232, 22);
+    padding: 3px;
+}
+.profilecard .text-data{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: rgb(0, 0, 0);
+}
+.text-data .name{
+   
+    font-size: 25px;
+    font-weight: 600;
+}
+.text-data .work{
+   
+    font-size: 15px;
+    font-weight: 400;
+}
+.profilecard .media-buttons{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin:8px;
+    background-color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+
+.buttons .btn{
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px  24px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.data-2{
+    padding:10px;
+}
+hr{
+    margin: 10x;
+}
